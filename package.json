@@ -1,0 +1,38 @@
+{
+  "name": "todoapp",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo run:android",
+    "ios": "expo run:ios",
+    "web": "expo start --web"
+  },
+  "dependencies": {
+    "@react-native-async-storage/async-storage": "^1.17.9",
+    "@react-navigation/native": "^6.0.11",
+    "@react-navigation/native-stack": "^6.7.0",
+    "@react-navigation/stack": "^6.2.2",
+    "@reduxjs/toolkit": "^1.8.4",
+    "expo": "~46.0.7",
+    "expo-splash-screen": "~0.16.1",
+    "expo-status-bar": "~1.4.0",
+    "fs": "^0.0.1-security",
+    "react": "18.0.0",
+    "react-dom": "18.0.0",
+    "react-native": "0.69.4",
+    "react-native-bootstrap-styles": "^4.5.0-r",
+    "react-native-fs": "^2.20.0",
+    "react-native-material-kit": "^0.6.0-beta.1",
+    "react-native-uuid": "^2.0.1",
+    "react-native-web": "~0.18.7",
+    "react-navigation": "^4.4.4",
+    "react-redux": "^8.0.2",
+    "redux": "^4.2.0",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.9"
+  },
+  "private": true
+}
